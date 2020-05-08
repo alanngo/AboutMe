@@ -1,7 +1,7 @@
 .img-hover-zoom 
 {
     height: 50px; /* [1.1] Set it as per your need */
-    width: 75px;
+    width: 55px;
     overflow: visible; /* [1.2] Hide the overflowing of child elements */
 }
   
