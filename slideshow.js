@@ -14,7 +14,7 @@ function changeImg()
 {
     document.slide.src = images[i];
     
-    if (i <images. length - 1){i++}
+    if (i <images. length - 1){i++;}
     
     else{i =0;}
     
