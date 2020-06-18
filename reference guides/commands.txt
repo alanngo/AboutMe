@@ -108,11 +108,11 @@ _______________________________________________________
 1. Open linux terminal
 2. $cd ~
 3. $touch commands.txt
-4. vim commands.txt
+4. $vim commands.txt
 5. paste this text into commands.txt using vim commands
 6. save and quit
 7. $vim .bashrc
-8. paste this command (w/o double quotes):  "alias commands = 'cat ~/commands.txt'"
+8. paste this command (w/o double quotes):  "alias commands='cat ~/commands.txt'"
 9. save and quit
 10. open a new terminal
 Now you can pull up this reference guide by simply typing 'commands'

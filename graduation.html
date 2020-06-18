@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="navBar.css">
+    <!-- <link rel="stylesheet" type="text/css" href="button.css"> -->
+    <meta charset="utf-8">
+    <title>Graduation</title>
+</head>
+
+
+<body>
+
+<!-- navbar automated -->
+<script src="automate.js"></script>
+<div w3-include-html="navbar.html"></div> 
+<script>includeHTML();</script>
+
+<!-- <audio id="my_audio" src="grad/music.mp3" loop="loop"></audio> -->
+<script src = "audio.js"></script>
+
+<table align="center">
+    <script src = clickshow.js></script>
+    <tr>
+        <td><a href ="#prev" onclick = "prevImg()"><img src = "leftarrow.png" width="150" height = "150"></a></td>
+        <td><img name = "slide" alt="grad" width="950" height ="650">
+        <td><a href ="#next" onclick = "nextImg()"><img src = "rightarrow.png" width="150" height = "150"></a></td>
+    </tr>
+   
+</table>
+
+</body>
+</html>
